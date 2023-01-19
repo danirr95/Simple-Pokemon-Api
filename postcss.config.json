@@ -1,0 +1,6 @@
+{
+    "COMMENT": "EN CASO DE ERROR POR AUTOPREFIXER, DEBEMOS INSTALAR DICHA DEPENDENCIA Y CREAR ESTE ARCHIVO",
+    "plugins": [
+        "autoprefixer"
+    ]
+}
