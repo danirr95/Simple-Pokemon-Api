@@ -151,7 +151,7 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
       params: { id },
     })),
     //Con 'fallback: false' indicamos que si el user introduce un id que no esta permitido, dará un error 404 | Si indicamos que sea 'blocking' entre comillas, e introducimos un id que no habíamos precargado, la web intentará hacer una nueva petición a la api con el id que le pasemos, y si no encuentra nada, lanazará un error 500
-    fallback: false,
+    fallback: 'blocking',
   };
 };
 
